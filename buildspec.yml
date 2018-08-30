@@ -1,0 +1,13 @@
+version:0.2
+os:linux
+phases:
+  pre-build:
+    commands:
+      - pip install pipenv
+  build:
+    commands: 
+      - pipenv install
+artifacts:
+  files:
+    - '**/*'
+
