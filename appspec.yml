@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: flask-site-master
+  - source: deployment-archive
     destination: /home/ubuntu/visitly/
 hooks:
   BeforeInstall:
