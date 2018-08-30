@@ -4,7 +4,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    return "<h1 style='color:blue'>Hello There!</h1>"
+    return "<h1 style='color:red'>Hello There!</h1>"
 
 
 @application.route("/health")
