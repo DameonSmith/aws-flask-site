@@ -1,5 +1,4 @@
 version:0.2
-os:linux
 phases:
   pre-build:
     commands:
