@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: deployment-archive
+  - source: /
     destination: /home/ubuntu/visitly/
 hooks:
   BeforeInstall:
